@@ -34,3 +34,8 @@ export interface MoviesProps {
   titleText: TitleText
   releaseYear: ReleaseYear
 }
+interface MovieCardProps {
+  title: string;
+  posterImage: string;
+  releaseYear: string | number; // allow number too
+}
